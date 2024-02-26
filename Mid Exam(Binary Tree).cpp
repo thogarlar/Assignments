@@ -26,6 +26,10 @@ Utilisation:
 
 Dynamic Insertions: When a new book is added, the binary tree enables efficient insertion by traversing the tree based on the title and locating the suitable location to maintain the order.
 Removals: If a book needs to be deleted, the binary tree makes it simple by keeping the title order intact, and the tree may be rebalanced as needed.
+Advantages:
+Efficient Insertions and Removals: Inserting or removing a book has a logarithmic time complexity (O(log n)), making the operations efficient.
+Maintained Order: The binary tree automatically preserves book order by title, resulting in a sorted catalogue even after insertions and removals.
+Example: Consider adding a new book, such as "The Hobbit". The binary tree enables for efficient insertion by determining the appropriate place in the tree based on the title. Similarly, if a book needs to be removed, the binary tree may do it while keeping the sorted sequence of titles.
 
 
 #include <iostream>
