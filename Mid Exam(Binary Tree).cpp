@@ -19,6 +19,14 @@ Advantages:
 Logarithmic Search temporal: A balanced binary search tree's temporal complexity for searching is logarithmic (O(log n)), making it suitable for vast catalogues.
 Flexibility: The binary search tree can be configured to meet a variety of search criteria, allowing for the organisation and retrieval of information depending on diverse qualities.
 
+Scenario: 
+Easy Book Insertion and Removal: A library catalogue is a dynamic system that adds new books and removes old ones for various reasons, such as loss or out of circulation. The catalogue must efficiently manage these insertions and deletions while maintaining a sorted order.
+
+Utilisation:
+
+Dynamic Insertions: When a new book is added, the binary tree enables efficient insertion by traversing the tree based on the title and locating the suitable location to maintain the order.
+Removals: If a book needs to be deleted, the binary tree makes it simple by keeping the title order intact, and the tree may be rebalanced as needed.
+
 
 #include <iostream>
 #include <cstring>
