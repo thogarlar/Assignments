@@ -22,6 +22,15 @@ Each node in the linked list represents a transaction, which includes details su
 The linked list functions as a transaction log, with new transactions added as consumers complete financial transactions such as deposits, withdrawals, or transfers.
 In the event of discrepancies or disagreements, the linked list serves as a clear and chronological record for auditing.
 
+    Scenario: Banking System and transaction log
+Accurate and secure transaction logs are essential in banking systems for recording consumer transactions, auditing, and resolving disputes. The system must efficiently manage a high number of transactions in real time.
+
+Utilisation:
+
+Each node in the linked list represents a transaction and includes information such as the transaction ID, date, account details, and amount.
+The linked list serves as a transaction log, with new transactions added as consumers make deposits, withdrawals, or transfers.
+In the event of discrepancies or disagreements, the linked list serves as a clear and chronological record for auditing purposes.
+
 
 #include <iostream>
 #include <string>
