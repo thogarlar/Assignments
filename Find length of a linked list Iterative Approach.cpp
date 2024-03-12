@@ -13,6 +13,7 @@ Return Length: Once the traversal is complete, return the final length of the li
 using namespace std;
 
 // Define a Node structure
+//Small change
 struct Node {
     int data;
     Node* next;
